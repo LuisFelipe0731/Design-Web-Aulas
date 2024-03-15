@@ -1,0 +1,40 @@
+body {
+    background-color: brown;
+    color: antiquewhite;
+}
+
+img {
+    position: relative;
+    bottom: 56%;
+    left: 56%;
+    transform: translate(-60%, 1%);
+    height: 60%;
+    width: 60%;
+}
+
+h1 {
+    font-size: 3.4em;
+    font-family: fantasy;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+} 
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.1em 0.8em;
+    background-color: coral;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+a:hover {
+    background-color: cadetblue;
+    border-bottom: 2px solid darkred;
+    margin-bottom: 0;
+}
+
