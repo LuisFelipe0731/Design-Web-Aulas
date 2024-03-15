@@ -39,3 +39,8 @@ a:hover {
     margin-bottom: 0;
 }
 
+p {
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
