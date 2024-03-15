@@ -12,7 +12,6 @@ h1 {
 
 li {
     display: inline; /*permite que ps itens da lista sejam colocados uns ao lado dos outros*/
-    background-color: coral;
     font-size: 1.8em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
@@ -22,9 +21,14 @@ a {
     display: inline-block;
     text-decoration: none;
     padding: 0.1em 0.8em;
+    background-color: coral;
+    border-radius: 5px;
+    margin-bottom: 2px;
 }
 a:hover {
     background-color: cadetblue;
+    border-bottom: 2px solid darkred;
+    margin-bottom: 0;
 }
 
 p {
