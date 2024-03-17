@@ -1,0 +1,17 @@
+body {
+    background-color: bisque;
+    color: darkslategray;
+}
+
+h1 {
+    font-size: 3.7em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    display: inline;
+    font-size: 2em;
+    font-family: monospace;
+    padding: 8px 16px;
+}
