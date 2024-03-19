@@ -1,0 +1,32 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8em;
+    background-color: antiquewhite;
+}
+
+table { /*formatção da tabela*/
+    width: 60%;
+    margin: 0 auto;
+    background-color: #a9cccc;
+    color: #3d0528;
+    border-bottom: 4px solid black;
+    border-spacing: 0;
+}
+
+thead {
+    background-color: rgb(127, 135, 182);
+}
+
+td {
+    padding: 0.25em;
+}
+tr:nth-child(odd){
+    background-color: rgb(129, 161, 221);
+}
+h1 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
