@@ -20,7 +20,7 @@ thead {
 td {
     padding: 0.25em;
 }
-tr:nth-child(odd){
+tr:nth-child(even){
     background-color: rgb(129, 161, 221);
 }
 h1 {
