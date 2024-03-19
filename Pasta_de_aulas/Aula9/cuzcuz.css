@@ -6,7 +6,7 @@ body {
 
 table { /*formatção da tabela*/
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto; /*coloca a tabela no centro caso tenha espaço*/
     background-color: #a9cccc;
     color: #3d0528;
     border-bottom: 4px solid black;
