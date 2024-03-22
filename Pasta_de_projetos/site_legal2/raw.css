@@ -1,0 +1,43 @@
+body {
+    background-color: azure;
+    color: black;
+}
+
+p {
+    font-size: 1em;
+    text-align: center;
+    font: Garamond;
+}
+
+li {
+    display: inline;
+    font-size:1.5em ;
+}
+
+ul {
+    text-align: center;
+    font:Garamond;
+    padding: 0.5em 1.1em;
+}
+
+figure {
+    text-align: center;
+    
+    
+}
+
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font: Garamond;
+    font-size: 3em;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    padding: 0.025em 0.5em;
+}
+
