@@ -32,6 +32,7 @@ figure {
 
 h1 {
     text-align: center;
+    
 }
 h3 {
     text-align: center;
@@ -47,4 +48,14 @@ a {
 
 address {
     text-align: center;
+}
+
+ol {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background-color: goldenrod;
+    font-family:sans-serif;
 }
