@@ -7,17 +7,21 @@ p {
     font-size: 1em;
     text-align: center;
     font: Garamond;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 li {
     display: inline;
-    font-size:1.5em ;
+    font-size:1.25em;
+    padding: 0.5cm 1.5cm;
+    font: Garamond
 }
 
 ul {
     text-align: center;
     font:Garamond;
-    padding: 0.5em 1.1em;
+    padding: 0.5em 1em;
 }
 
 figure {
