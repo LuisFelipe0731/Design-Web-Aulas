@@ -41,3 +41,6 @@ a {
     padding: 0.025em 0.5em;
 }
 
+address {
+    text-align: center;
+}
