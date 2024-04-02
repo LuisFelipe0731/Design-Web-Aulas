@@ -1,3 +1,25 @@
 * {
-    padding: 0.35em 3em;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+header a {
+    color: antiquewhite;
+}
+
+header h1 {
+    background-color: rgb(49, 76, 134);
+    padding: 3em;
+}
+
+nav {
+    background-color: rgb(33, 59, 92);
+    padding: 1em;
+}
+nav li {
+    display: inline-block;
 }
