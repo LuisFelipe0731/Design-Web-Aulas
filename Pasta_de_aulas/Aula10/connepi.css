@@ -22,4 +22,15 @@ nav {
 }
 nav li {
     display: inline-block;
+    margin-right: 1em;
+}
+
+section {
+    background-color: rgb(202, 80, 104);
+    width: 14.5em;
+    height: 11em;
+    border-radius: 1.2em;
+    margin: 1em;
+    padding: 2em;
+    float: left;
 }
