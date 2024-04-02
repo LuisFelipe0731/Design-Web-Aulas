@@ -48,5 +48,5 @@ section h2 {
 footer {
     background-color: rgb(127, 138, 136);
     padding: 2em;
-    clear: both;
+    clear: both; /*coloca abaixo dos elementos que estao flutuando*/
 }
