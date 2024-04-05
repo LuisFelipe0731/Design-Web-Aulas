@@ -31,6 +31,12 @@ nav li {
     border-radius: 1.1em;
 }
 
+main {
+    max-width: 70em; /*Largura maxima do conteudo principal*/ /*Largura maxima é importante para a responsividade*/
+    background-color: aqua;
+    margin: 0 auto; /*Quando definida à largura, o conteudo fica no centro*/
+
+}
 section {
     background-color: rgb(202, 80, 104);
     width: 14.5em;
@@ -38,7 +44,7 @@ section {
     border-radius: 1.2em;
     margin: 1em;
     padding: 2em;
-    float: left;
+    
 }
 
 section h2 {
@@ -48,5 +54,5 @@ section h2 {
 footer {
     background-color: rgb(127, 138, 136);
     padding: 2em;
-    clear: both; /*coloca abaixo dos elementos que estao flutuando*/
+     /*coloca abaixo dos elementos que estao flutuando*/
 }
