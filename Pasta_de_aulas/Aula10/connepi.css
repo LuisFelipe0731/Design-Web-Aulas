@@ -33,7 +33,6 @@ nav li {
 
 main {
     max-width: 70em; /*Largura maxima do conteudo principal*/ /*Largura maxima é importante para a responsividade*/
-    background-color: aqua;
     margin: 0 auto; /*Quando definida à largura, o conteudo fica no centro*/
     display: flex;
     flex-wrap: wrap;/*quebra de linha | permite que as seções fiquem uma lado da outra*/
