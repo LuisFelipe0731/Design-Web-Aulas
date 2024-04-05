@@ -36,7 +36,7 @@ main {
     background-color: aqua;
     margin: 0 auto; /*Quando definida à largura, o conteudo fica no centro*/
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;/*quebra de linha | permite que as seções fiquem uma lado da outra*/
 }
 section {
     background-color: rgb(202, 80, 104);
