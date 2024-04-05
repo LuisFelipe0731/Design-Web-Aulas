@@ -65,7 +65,7 @@ article {
     border-radius: 1.2em;
     margin: 1em;
     padding: 2em;
-    min-height: 10em;
+    min-height: 23em;
     
 }
 
@@ -76,6 +76,19 @@ aside {
     border-radius: 1.2em;
     margin: 1em;
     padding: 2em;
-    min-height: 10em;
+    min-height: 9em;
     
+}
+
+figure {
+    float: left;
+    
+}
+
+img {
+    width: 300px;
+}
+
+article figure img {
+    margin: 1em;
 }
