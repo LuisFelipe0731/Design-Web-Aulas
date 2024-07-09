@@ -1,6 +1,7 @@
 div#container{ /*#: id do html*/
     max-width: 70em;
+    /*max-width = maxinmo de largura do site*/
     margin: 0 auto;
-    background-color: crimson;
+    background-color: rgb(100, 180, 85);
     padding: 2em;
 }
