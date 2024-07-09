@@ -1,4 +1,4 @@
-div#container{
+div#container{ /*#: id do html*/
     max-width: 70em;
     background-color: crimson;
 }
