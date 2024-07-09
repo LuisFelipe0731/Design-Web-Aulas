@@ -4,4 +4,17 @@ div#container{ /*#: id do html*/
     margin: 0 auto;
     background-color: rgb(100, 180, 85);
     padding: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section > div { /*Formata apenas a primenira div dentro da section*/
+    display: flex;
+    background-color: rgb(100, 255, 85);
+    padding: 2em;
+    div{
+        border: 3px solid rgb(0, 80, 0);
+        margin: 1em;
+        padding: 1em;
+    }
+    
 }
