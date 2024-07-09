@@ -9,7 +9,7 @@ div#container{ /*#: id do html*/
 
 section > div { /*Formata apenas a primenira div dentro da section*/
     display: flex;
-    background-color: rgb(100, 255, 85);
+    background-color: rgb(125, 230, 75);
     padding: 2em;
     
     div{ /*estrutura alinhada*/
@@ -17,6 +17,7 @@ section > div { /*Formata apenas a primenira div dentro da section*/
         margin: 1em;
         padding: 1em;
         border-radius: 2em;
+        box-shadow: 0.5em 0.5em 0.5em rgb(75, 90, 50);
 
     }
     
