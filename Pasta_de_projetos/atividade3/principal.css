@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #186c86;
+    background: linear-gradient(to right,#72cfed,#186c86);
     padding: 1.3em;
 }
 
@@ -15,7 +15,7 @@ main {
     max-width: 70em;
     margin: 2em auto;
     display: flex;
-    gap: 1em;
+    gap: 0.1em;
 }
 section {
     border: 1px solid #aaa;
@@ -28,11 +28,16 @@ section {
 h2 {
     font-size: 1.8em;
     color: #186c86;
-    padding: 0.20em;
+    padding: 0.2em;
     
     
 }
 p {
-    font-size: 0.8em;
+    font-size: 0.88em;
     padding: 0.6em;
+    color:#444;
+}
+section > img {
+    padding: 0.2em;
+    
 }
