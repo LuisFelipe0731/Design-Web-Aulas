@@ -8,7 +8,7 @@ body {
 
 header {
     background: linear-gradient(to right,#72cfed,#186c86);
-    padding: 1.3em;
+    padding: 0.88em;
 }
 
 main {
@@ -37,7 +37,12 @@ p {
     padding: 0.6em;
     color:#444;
 }
+p.data{
+    font-size: 0.9em;
+    color:#999;
+    text-align: right;
+}
 section > img {
     padding: 0.2em;
-    
+
 }
