@@ -33,6 +33,7 @@ header {
 
 p {
     text-align: center;
+    background-color: #ddd;
 
 }
 
@@ -52,8 +53,5 @@ main {
 li.nav{
     display: inline-block;
     padding: 0.2em;
-}
-nav.icones {
-    background-color: #eee;
 }
 
