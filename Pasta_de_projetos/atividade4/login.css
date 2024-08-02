@@ -22,6 +22,8 @@ main.container {
 
 nav{
     text-align: right;
+
+
 }
 li{
     display: inline-block;
@@ -31,13 +33,18 @@ li{
 form {
     padding: 3.3em;
     
+    
 }
 
 label {
     padding: 1em;
 }
 
-input [type='text']{
+input [type="password"]{
     padding: 0.2em ;
     width: 27em;
+}
+
+input [type="submit"]{
+    background-color: #333;
 }
