@@ -40,11 +40,11 @@ label {
     padding: 1em;
 }
 
-input [type="password"]{
+input [type='password']{
     padding: 0.2em ;
     width: 27em;
 }
 
-input [type="submit"]{
+input [type='submit']{
     background-color: #333;
 }
