@@ -6,7 +6,7 @@
 body {
     background-color: aquamarine;
     display: flex;
-    margin:2.5em;
+    margin:1.5em;
     font-family: monospace;
     font-size: 1.5em;
 
@@ -41,12 +41,26 @@ form {
 label {
     padding: 1em;
 }
-
-input [type='password']{
-    padding: 0.2em ;
-    width: 27em;
+label[for='esquecido']{
+    font-size: 0.8em;
 }
 
-input [type='submit']{
-    background-color: #333;
+
+input[type='submit']{
+    background-color: #519999;
+    border: 0;
+    padding: 0.8em;
+    color: #fffffe;
+    width: 8em;
+    
+}
+input [type='checkbox']{
+    padding: 0.8em;
+    
+}
+
+input{
+    width: 13.5em;
+    margin: 1.2em;
+    padding: 0.2em;
 }
