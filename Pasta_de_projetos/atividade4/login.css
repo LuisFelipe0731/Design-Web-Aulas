@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: aquamarine;
+    background: linear-gradient(to right,#519999 ,#5babab);
     display: flex;
     margin:1.5em;
     font-family: monospace;
