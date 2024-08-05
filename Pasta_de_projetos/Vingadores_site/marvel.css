@@ -12,6 +12,7 @@ h2{
 }
 header {
     background-color: #000;
+    display: inline;
 }
 footer {
     background-color: #000;
@@ -19,14 +20,12 @@ footer {
 }
 main {
     display: flex;
-    background-color: #aaa;
-    width: 50em;
+    background-color: #ddd;
+    margin: 8em;
     flex-wrap: wrap;
     text-align: center;
 }
-a {
-    display: inline-block;
-}
+
 main > li {
     display: inline;
     padding: 0.5em;
@@ -37,4 +36,16 @@ footer > nav{
 
 nav.midia > li{
     display: inline;
+}
+section {
+    background-color: #fff;
+    height: 18em;
+    width: 20em;
+    text-align: center;
+    border-radius: 0.8em;
+    border: 1px solid #888;
+}
+
+section > img{
+    margin: 0.5em;
 }
