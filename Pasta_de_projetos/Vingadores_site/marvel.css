@@ -15,7 +15,6 @@ header {
 
 }
 
-
 footer {
     background-color: #000;
     display: flex;
@@ -28,9 +27,6 @@ main {
     max-width: 85em;
     margin: 1em auto;
     flex-wrap: wrap;
-    gap: 1em;
-    
-    
 
 }
 
@@ -40,7 +36,8 @@ section {
     border-radius: 0.5em;
     border: 1px solid #ccc;
     text-align: center;
-
+    width: 23em;
+    margin: 1.5em auto;
 
 }
 
