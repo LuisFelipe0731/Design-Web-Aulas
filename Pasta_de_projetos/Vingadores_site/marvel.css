@@ -8,7 +8,7 @@ body {
     font-family:'Courier New', Courier, monospace
 }
 h2{
-    padding: 2em;
+    padding: 1.5em;
 }
 header {
     background-color: #000;
@@ -21,7 +21,6 @@ footer {
 main {
     display: flex;
     background-color: #ddd;
-    margin: 8em;
     flex-wrap: wrap;
     text-align: center;
 }
@@ -34,9 +33,7 @@ footer > nav{
     text-align: center;
 }
 
-nav.midia > li{
-    display: inline;
-}
+
 section {
     background-color: #fff;
     height: 18em;
@@ -47,5 +44,5 @@ section {
 }
 
 section > img{
-    margin: 0.5em;
+    margin: 0.8em;
 }
