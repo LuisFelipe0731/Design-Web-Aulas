@@ -8,11 +8,20 @@ body {
     font-family:'Courier New', Courier, monospace
 }
 h2{
-    padding: 1.5em;
+    padding: 1.8em;
+}
+h1 {
+    color: #fff;
+    padding: 1em;
+}
+nav {
+    text-align: center;
+}
+nav > li{
+    display: inline;
 }
 header {
     background-color: #000;
-    display: inline;
 }
 footer {
     background-color: #000;
@@ -22,17 +31,14 @@ main {
     display: flex;
     background-color: #ddd;
     flex-wrap: wrap;
-    text-align: center;
+    
 }
 
-main > li {
-    display: inline;
+main > ul {
+    display: flex;
     padding: 0.5em;
+    
 }
-footer > nav{
-    text-align: center;
-}
-
 
 section {
     background-color: #fff;
