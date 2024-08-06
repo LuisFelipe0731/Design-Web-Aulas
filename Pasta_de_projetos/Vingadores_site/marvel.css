@@ -6,4 +6,44 @@
 body {
     background-color: #fff;
     font-family:'Courier New', Courier, monospace
+    
+}
+header {
+    background-color: #000;
+    display: flex;
+    padding: 1.5em;
+
+}
+
+
+footer {
+    background-color: #000;
+    display: flex;
+    padding: 1.5em;
+}
+
+main {
+    background-color: #ddd;
+    display: flex;
+    max-width: 85em;
+    margin: 1em auto;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+    
+
+}
+
+section {
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    border: 1px solid #ccc;
+    text-align: center;
+
+
+}
+
+h1 {
+    color: #fff;
 }
