@@ -11,6 +11,7 @@ header {
     background-color: #000;
     display: flex;
     padding: 1em;
+    
 
 }
 
@@ -53,4 +54,22 @@ section {
 
 h1 {
     color: #fff;
+}
+
+li {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 0.8em;
+    margin: 0 auto;
+}
+
+nav.midia{
+    padding: 0.6em;
+    
+    li {
+        border: none;
+    }
+    ul {
+        text-align: right;
+    }
 }
