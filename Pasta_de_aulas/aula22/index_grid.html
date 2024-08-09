@@ -7,18 +7,22 @@
         <style>
             main {
                 margin: 0 auto;
-                width: 70em;
+                width: 80em;
                 background-color: #2266cc;
                 display: grid;
                 gap: 2em; /*Gap: espaço entre as celulas*/
+                grid-template-rows: 10em 20em 10em;/* rows: Define a altura da fileira*/
+                grid-template-columns: 1fr 1fr 2fr;
                 grid-template-areas: 
-                "b a a a" /*ponto: espaço vazio*/
-                "c d e e"; /*Matriz do main*/
+                "b a c" /*ponto: espaço vazio*/
+                "e d c"
+                "e d c"; /*Matriz do main*/
                 
             }
             main div {
                 border: 1px solid #fff;
                 padding: 2em;
+                overflow: auto; /* overflow: ajusta o texto ou imagem*/
             }
             div.area-a{grid-area: a;} /*Criação de variaveis do grid*/
             div.area-b{grid-area: b;}
