@@ -12,8 +12,8 @@
                 display: grid;
                 gap: 2em; /*Gap: espaço entre as celulas*/
                 grid-template-areas: 
-                "b ." /*ponto: espaço vazio*/
-                "c a"; /*Matriz do main*/
+                "b a a a" /*ponto: espaço vazio*/
+                "c d e e"; /*Matriz do main*/
                 
             }
             main div {
@@ -23,6 +23,8 @@
             div.area-a{grid-area: a;} /*Criação de variaveis do grid*/
             div.area-b{grid-area: b;}
             div.area-c{grid-area: c;}
+            div.area-d{grid-area: d;}
+            div.area-e{grid-area: e;}
         </style>
     </head>
     <body>
@@ -31,6 +33,8 @@
             <div class="area-a"><p>A</p></div>
             <div class="area-b"><p>B</p></div>
             <div class="area-c"><p>C</p></div>
+            <div class="area-d"><p>D</p></div>
+            <div class="area-e"><p>E</p></div>
         </main>
     </body>
 </html>
