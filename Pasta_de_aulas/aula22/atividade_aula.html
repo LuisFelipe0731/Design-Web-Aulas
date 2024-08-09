@@ -5,18 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade de Grid</title>
     <style>
-
+        main {
+            margin: 0 auto;
+            width: 80em;
+            background-color: #fee;
+            display: grid;
+            gap: 2em;
+            grid-template-rows: 10em 10em 10em;
+            grid-template-columns: 1fr 2fr 1fr 1fr;
+            grid-template-areas:
+            "n a b c"
+            "n d d c"
+            "n e e c";
+        }
+        main div{
+            border: 1px solid #001;
+            padding: 2em;
+        }
+        div.area-nav{grid-area: n;}
+        div.area-a{grid-area: a;}
+        div.area-b{grid-area: b;}
+        div.area-c{grid-area: c;}
+        div.area-d{grid-area: d;}
+        div.area-e{grid-area: e;}
     </style>
 </head>
 <body>
+    <h1>Atividade</h1>
     <main>
-        <h1>Atividade</h1>
-        <div class="area-1"><p>Nav</p></div>
-        <div class="area-2"><p>A</p></div>
-        <div class="area-3"><p>B</p></div>
-        <div class="area-4"><p>C</p></div>
-        <div class="area-5"><p>D</p></div>
-        <div class="area-6"><p>E</p></div>
+        <div class="area-nav"><p>Nav</p></div>
+        <div class="area-a"><p>A</p></div>
+        <div class="area-b"><p>B</p></div>
+        <div class="area-c"><p>C</p></div>
+        <div class="area-d"><p>D</p></div>
+        <div class="area-e"><p>E</p></div>
     </main>
 </body>
 </html>
