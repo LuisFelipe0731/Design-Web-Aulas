@@ -21,6 +21,10 @@ footer {
 }
 
 section {
-    padding: 1em;
-    margin: 8em auto;
+    padding: 3em;
+    margin: 0 auto;
+}
+
+form {
+    margin: 0 auto;
 }
