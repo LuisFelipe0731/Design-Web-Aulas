@@ -7,3 +7,22 @@ body {
     font-family: monospace;
     background-color: #fff;
 }
+
+header {
+    background: linear-gradient(to left,#7292A6, #224459);
+    color: #fff;
+    padding: 1.86em;
+    font-size: 1.25em;
+}
+
+main {
+    padding: 1.5em;
+
+}
+
+footer {
+    background-color: #224459;
+    color: #fff;
+    padding: 5.25em;
+    text-align: center;
+}
