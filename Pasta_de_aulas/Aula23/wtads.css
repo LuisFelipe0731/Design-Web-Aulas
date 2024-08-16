@@ -8,9 +8,11 @@ header, footer {
     background-color: #222266;
     color: #fff;
     text-align: center;
+    width: 100%;
 }
 header {
     position: fixed;
+    z-index: 4;
 }
 
 main p {
