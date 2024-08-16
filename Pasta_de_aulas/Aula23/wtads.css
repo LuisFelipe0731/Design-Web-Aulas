@@ -9,6 +9,9 @@ header, footer {
     color: #fff;
     text-align: center;
 }
+header {
+    position: fixed;
+}
 
 main p {
     margin: 1em 5em;
