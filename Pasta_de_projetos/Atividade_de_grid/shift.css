@@ -16,9 +16,15 @@ header {
 }
 
 main {
-    padding: 1.5em;
-    gap: 1em;
+    margin: 1 auto;
+    padding: 1em;
+    gap: 0.25em;
     display: grid;
+    grid-template-areas: 
+    "a b d g h"
+    "a b d i j"
+    "a c c e e"
+    "a c c f f";
     
 
 }
@@ -29,3 +35,32 @@ footer {
     padding: 5.6em;
     text-align: center;
 }
+
+nav {
+    background-color: #ccc;
+    padding: 1em;
+    width: 25em;
+}
+section{
+    background-color: #ccc;
+    padding: 1em;
+    width: 14em;
+}
+div {
+    background-color: #ccc;
+    padding: 1.25em;
+    width: 14em;
+
+}
+
+nav.nav_grid{grid-area: a;}
+section.section_grid1{grid-area: b;}
+section.section_grid2{grid-area: c;}
+section.section_grid3{grid-area: d;}
+div.div1{grid-area: e;}
+div.div2{grid-area: f;}
+div.div_imagem1{grid-area: g;}
+div.div_imagem2{grid-area: h;}
+div.div_imagem3{grid-area: i;}
+div.div_imagem4{grid-area: j;}
+
