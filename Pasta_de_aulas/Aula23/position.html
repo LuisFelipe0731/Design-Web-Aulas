@@ -98,11 +98,11 @@
         <p>Desenvolvido por IFRN</p>
     </footer>
     <script>
-    document.getElementById('aparecer').addEventListener("click", modal);
+    document.getElementById('aparecer').addEventListener("click", visibilidade);
     function modal(){
         document.getElementById('modal').style.visibility = 'hidden';
     }
-    document.getElementById('fechar_modal').addEventListener("click", visibilidade);
+    document.getElementById('fechar_modal').addEventListener("click", modal);
     function visibilidade(){
         document.getElementById('modal').style.visibility = 'visible';
     }
