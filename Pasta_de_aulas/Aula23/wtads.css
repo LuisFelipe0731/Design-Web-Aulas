@@ -19,12 +19,19 @@ div.box {
     height: 300px;
     background-color: #447799;
     padding: 2em;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Este atributo muda o comportamento da caixa ao aplicar o padding.*/
+    position: absolute;
+    top: 100px;
+    left: 100px;
 }
 
 div.box2 {
-    background-color: #dd4455;
+    background-color: #dd6666;
+    top: 150px;
+    left: 150px;
 }
 div.box3 {
     background-color: #11bbcc;
+    top: 200px;
+    left: 200px;
 }
