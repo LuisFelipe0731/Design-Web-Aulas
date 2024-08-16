@@ -36,14 +36,14 @@ div.box {
     left: 100px;
 }
 div#modal {
-    z-index: 2; /* Ordem das elementos no eixo z*/
+    z-index: 3; /* Ordem das elementos no eixo z*/
     /*visibility: hidden;*/
 }
 div.box2 {
     background-color: #dd6666;
     top: 150px;
     left: 150px;
-    z-index: 3;
+    z-index: 2;
 }
 div.box3 {
     background-color: #23ccdd;
