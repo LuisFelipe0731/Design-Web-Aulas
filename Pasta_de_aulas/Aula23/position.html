@@ -20,7 +20,7 @@
         <h1>WTADS - 9 a 11 de setembro</h1>
     </header>
     <main>
-        <button>[x] aparecer</button>
+        <button id="aparecer">[x] aparecer</button>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum inventore reprehenderit, aperiam illum dolores dolorum 
         iste aut quo rem consequatur molestiae veniam laudantium odio. Voluptates eveniet suscipit omnis tenetur deserunt!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum inventore reprehenderit, aperiam illum dolores dolorum 
@@ -99,8 +99,12 @@
     </footer>
     <script>
     document.getElementById('fechar_modal').addEventListener("click", modal);
+    document.getElementById('aparecer').addEventListener("click", modal);
     function modal(){
         document.getElementById('modal').style.visibility = 'hidden';
+    }
+    function visibilidade(){
+        document.getElementById('modal').style.visibility = 'visible';
     }
     </script>
 </body>
