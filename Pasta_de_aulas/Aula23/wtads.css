@@ -36,7 +36,9 @@ div.box {
     left: 100px;
     z-index: 2; /* Ordem das elementos no eixo z*/
 }
-
+div#modal {
+    visibility: hidden;
+}
 div.box2 {
     background-color: #dd6666;
     top: 150px;
