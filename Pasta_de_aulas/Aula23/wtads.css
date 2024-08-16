@@ -34,10 +34,10 @@ div.box {
     position: absolute; /* permite com que os elementos se sobreponham */
     top: 100px;
     left: 100px;
-    z-index: 2; /* Ordem das elementos no eixo z*/
 }
 div#modal {
-    visibility: hidden;
+    z-index: 2; /* Ordem das elementos no eixo z*/
+    /*visibility: hidden;*/
 }
 div.box2 {
     background-color: #dd6666;
