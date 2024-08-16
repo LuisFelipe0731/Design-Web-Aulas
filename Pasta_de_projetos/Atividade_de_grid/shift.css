@@ -17,7 +17,8 @@ header {
 
 main {
     padding: 1.5em;
-    margin: 0 auto;
+    gap: 1em;
+    display: grid;
     
 
 }
@@ -25,6 +26,6 @@ main {
 footer {
     background-color: #224459;
     color: #fff;
-    padding: 5.25em;
+    padding: 5.6em;
     text-align: center;
 }
