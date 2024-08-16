@@ -18,9 +18,9 @@ div.box {
     width: 300px;
     height: 300px;
     background-color: #447799;
-    padding: 2em;
+    padding: 5em;
     box-sizing: border-box; /* Este atributo muda o comportamento da caixa ao aplicar o padding.*/
-    position: absolute;
+    position: absolute; /* permite com que os elementos se sobreponham*/
     top: 100px;
     left: 100px;
 }
