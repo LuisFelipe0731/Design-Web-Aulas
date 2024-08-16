@@ -2,3 +2,14 @@
     margin: 0 auto;
     padding: 0;
 }
+
+header, footer {
+    padding: 2em;
+    background-color: #222266;
+    color: #fff;
+    text-align: center;
+}
+
+main p {
+    margin: 1em 5em;
+}
