@@ -37,10 +37,21 @@ footer {
 }
 
 nav {
-    background-color: #ccc;
-    padding: 1em;
-    width: 25em;
+    background-color: #eeeeff;
+    padding: 1.4em;
+    width: 8.6em;
+    font-size: 1.8em;
+    
+
+}
+nav > ul {
+    text-decoration: none;
+
+}
+a {
+    text-decoration: none;
     color: #7292a6;
+
 }
 section{
     background-color: #ccc;
