@@ -113,6 +113,7 @@
         nav li a {
             animation-name: linkmenu;
             animation-duration: 1.8s;
+            
 
         }
         @keyframes linkmenu {
@@ -124,6 +125,37 @@
             }
         }
 
+    section div {
+        animation-name: cards;
+        animation-duration: 1.5s;
+
+    }
+
+    @keyframes cards {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    nav li a {
+        transition: color 1s, background-color 1s;
+    }
+    nav li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+
+    section div {
+        transition: box-shadow 1s, background-color 1s;
+
+    }
+    section div:hover {
+        box-shadow: 0 0 3px #000;
+        background-color: #fff;
+    }
     </style>
 </head>
 
