@@ -15,22 +15,43 @@ header {
 main {
     background-color: #fff;
     margin: 0 auto;
-    max-width: 72em;
+    max-width: 80em;
     display: flex;
-    padding: 1.5em;
+    padding: 2em;
     flex-wrap: wrap;
 }
 div.container {
     margin: 0 auto;
     display: flex;
-    gap: 0.70em;
+    gap: 3.5em;
 }
 div.container > section{
     width: 279px;
+    
+}
+section > p {
+    font-size: 1.12em;
+}
+h3 {
+    color: #FF6C75;
+    font-size: 1.3em;
 }
 
 section.card_principal {
     display: flex;
+}
+div.linha {
+    padding: 1.5em;
+    margin: 0 auto;
+}
+hr {
+    
+    margin: 0 auto;
+    width: 70em;
+    height: 1.5px;
+    background-color: #FF6C75;
+    border-radius: 2em;
+    border: 0 solid #FF6C75;
 }
 
 footer {
