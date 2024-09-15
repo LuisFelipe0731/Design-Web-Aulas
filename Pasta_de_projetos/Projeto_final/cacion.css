@@ -10,7 +10,30 @@ body {
 
 header {
     background-color: #FF6C75;
-    padding: 1.5em;
+    padding: 1em;
+    display: flex;
+    gap: 2em;
+}
+nav {
+    background-color: #CB324D;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    width: 30em;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    background-color: #FF6C75;
+    width: 6.6em;
+    padding: 0.25em;
+    border-radius: 0.3em;
+    text-align: center;
+
+}
+li > a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.13em;
 }
 main {
     background-color: #fff;
@@ -39,16 +62,29 @@ h3 {
 
 section.card_principal {
     display: flex;
+
+
+}
+section.card_principal > div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 4em;
+    margin: 1.2em;
+    font-size: 118%;
+    h2 {
+        color: #FF6C75;
+    }
+
 }
 div.linha {
-    padding: 1.5em;
+    padding: 1.8em;
     margin: 0 auto;
 }
 hr {
     
     margin: 0 auto;
     width: 70em;
-    height: 1.5px;
+    height: 2px;
     background-color: #FF6C75;
     border-radius: 2em;
     border: 0 solid #FF6C75;
