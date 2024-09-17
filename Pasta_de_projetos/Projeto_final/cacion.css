@@ -115,3 +115,31 @@ footer {
     background-color: #000;
     padding: 1.4em;
 }
+
+section.login_section {
+    background-color: #CB324D;
+    border-radius: 0.75em;
+    display: flex;
+    flex-wrap: wrap;
+    height: 33em;
+    width: 23em;
+    margin: 0 auto;
+
+}
+
+section.login_section > h2 {
+    font-size: 2.8em;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+div.linha_preta{
+    margin: 0 auto;
+}
+
+div.linha_preta > hr {
+    background-color: #000;
+    border-radius: 2em;
+    height: 4px;
+    width: 20em;
+}
