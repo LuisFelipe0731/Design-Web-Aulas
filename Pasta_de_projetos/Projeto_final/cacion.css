@@ -125,7 +125,6 @@ section.login_section {
     height: 33em;
     width: 25em;
     margin: 0 auto;
-    background-image: ;
 
 }
 
@@ -196,4 +195,8 @@ input[type='submit'] {
     border: none;
     border-radius: 0.5em;
     background-color: #FF6C75;
+}
+
+main.login_fundo {
+    background-image: ;
 }
