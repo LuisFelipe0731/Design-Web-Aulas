@@ -158,3 +158,15 @@ footer > p {
     color: #fff;
     padding: 1em;
 }
+
+button {
+    padding: 1.5em;
+    display: flex;
+    margin: 0 auto;
+    height: 2em;
+}
+
+button > p {
+    
+    background: none;
+}
