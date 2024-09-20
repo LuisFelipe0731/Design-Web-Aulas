@@ -198,5 +198,11 @@ input[type='submit'] {
 }
 
 main.login_fundo {
-    background-image: ;
+    background: image("imagens/main.svg");
+}
+
+main.texto > h1 {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 2em;
 }
