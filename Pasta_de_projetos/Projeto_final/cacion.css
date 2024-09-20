@@ -125,6 +125,7 @@ section.login_section {
     height: 33em;
     width: 25em;
     margin: 0 auto;
+    background-image: ;
 
 }
 
@@ -134,7 +135,7 @@ section.login_section > h2 {
     margin: 0 auto;
 }
 div.icones {
-    padding: 2em;
+    padding: 1em;
     margin: 0 auto;
 }
 div.icones > ul > li {
@@ -158,13 +159,17 @@ footer > p {
 }
 
 button {
-    padding: 1.5em;
+    padding: 1em;
     display: flex;
     margin: 0 auto;
-    height: 2em;
+    height: 3em;
+    background-color: #fff;
+    border: none;
+    border-radius: 0.5em;
+    text-align: center;
 }
 
-button > p {
-    
+button > p > a {
+    padding: 1.2em;
     background: none;
 }
