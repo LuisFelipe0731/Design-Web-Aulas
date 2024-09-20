@@ -133,7 +133,9 @@ section.login_section > h2 {
     font-style: italic;
     margin: 0 auto;
 }
-
+div.icones > ul {
+    padding: 0;
+}
 div.linha_preta{
     margin: 0 auto;
 }
