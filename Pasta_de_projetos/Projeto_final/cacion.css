@@ -200,7 +200,9 @@ input[type='submit'] {
 main.login_fundo {
     background: image("imagens/main.svg");
 }
-
+main.texto {
+    height: 30em;
+}
 main.texto > h1 {
     margin: 0 auto;
     flex-wrap: wrap;
