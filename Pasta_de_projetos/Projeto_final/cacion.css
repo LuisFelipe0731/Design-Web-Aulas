@@ -204,5 +204,5 @@ main.login_fundo {
 main.texto > h1 {
     margin: 0 auto;
     flex-wrap: wrap;
-    padding: 2em;
+    padding: 1em;
 }
