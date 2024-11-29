@@ -4,5 +4,35 @@
 }
 
 header {
-    color: aquamarine;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-areas: 
+    "a b"
+    "a c";
+    padding: 0.5em;
+}
+
+header h1 {
+    grid-column: a;
+}
+
+header p:nth-child(2){
+    background-color: cadetblue;
+    grid-area: b;
+}
+
+header p:nth-child(3){
+    grid-area: c;
+    background-color: darkgoldenrod;
+}
+
+@media screen and  (max-width:768px){
+    body {
+        background-color: blue;
+
+    }
+    header {
+        display: block;
+    }
+    
 }
