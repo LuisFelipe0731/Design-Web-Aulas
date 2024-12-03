@@ -23,7 +23,7 @@
         amarelo
     </button>
     <script>
-        document.getElementById("js").innerHTML = "Infoweb";
+        // document.getElementById("js").innerHTML = "Infoweb";
         
         document.getElementsByClassName('destaque')[0].innerHTML = "DESTAQUE DESTAQUE";
         function mudagb(cor){ //Função
@@ -36,10 +36,16 @@
         let nome = "Luis";
         let cores = ['red','green','blue','yellow'];
 
-        console.log(c);
+        console.log(c); //console.log so mostra no console
         console.log(pi);
         console.log(nome);
         console.log(cores[1]);
+
+        function multiplicar(g,h){
+            return g*h;
+        }
+        document.getElementById('js').innerHTML = multiplicar(85,50);
+        console.log(multiplicar(9,7));
     </script>
 </body>
 </html>
