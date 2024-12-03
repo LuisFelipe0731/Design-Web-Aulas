@@ -46,12 +46,18 @@
         }
         document.getElementById('js').innerHTML = multiplicar(85,50);
         console.log(multiplicar(9,7));
+        
         function colors(){
+
+            for(cont=1;cont<=100;cont++){
             let r = Math.floor(Math.random()*256);
             let g = Math.floor(Math.random()*256);
             let b = Math.floor(Math.random()*256);
-            document.write(`<div style='background-color: rgb(${r}),${g},${b})'>x</div>`)
+            document.write(`<div style='background-color: rgb(${r}),${g},${b})'>x</div>`);
+            }
         }
+        colors();
+        console.log(Math.random());
     </script>
 </body>
 </html>
