@@ -7,6 +7,9 @@
 </head>
 <body>
     <p id="js"></p>
+
+    <p class="destaque"></p>
+    <!--Buttons-->
     <button onclick="mudagb('red')">
         vermelho
     </button>
@@ -21,7 +24,9 @@
     </button>
     <script>
         document.getElementById("js").innerHTML = "Infoweb";
-        function mudagb(cor){
+        
+        document.getElementsByClassName('destaque')[0].innerHTML = "DESTAQUE DESTAQUE";
+        function mudagb(cor){ //Função
             document.bgColor = cor;
         }
     </script>
