@@ -7,9 +7,14 @@
 </head>
 <body>
     <p id="js"></p>
-    
+    <button onclick="mudagb('red')">
+        vermelho
+    </button>
     <script>
         document.getElementById("js").innerHTML = "Infoweb";
+        function mudagb(cor){
+            document.bgColor = cor;
+        }
     </script>
 </body>
 </html>
