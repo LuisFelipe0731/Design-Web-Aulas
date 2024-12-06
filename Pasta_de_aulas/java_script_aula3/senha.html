@@ -15,12 +15,17 @@
             Confirma senha: 
             <input type="password" id="conf_senha">
         </label>
-        <input type="submit" value="verificar" id="verificar">
+        <button id="verificar"></button>
 
     </form>
     <script>
         let a = document.querySelector("input#senha");
         let b = document.querySelector("input#conf_senha");
+        let verificar = document.querySelector("buttom#verifcar");
+
+        verificar.onclick = function(){
+            console.log("deu certo");
+        }
     
     </script>
 </body>
