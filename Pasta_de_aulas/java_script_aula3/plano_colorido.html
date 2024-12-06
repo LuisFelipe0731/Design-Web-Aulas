@@ -26,5 +26,16 @@
     <main>
         <div id="cores"></div>
     </main>
+    <script>
+        document.body.onmousemove = function (){
+            let x = event.clientX;
+            let y = event.clientY;
+            let rx = window.screen.availWidth;
+            let ry = window.screen.availHeight;
+            let px = Math.round((x/rx)*255);
+            let py = Math.round((y/ry)*255);
+        }
+    </script>
 </body>
+
 </html>
