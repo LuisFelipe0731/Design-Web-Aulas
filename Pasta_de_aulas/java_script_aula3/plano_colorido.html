@@ -34,6 +34,7 @@
             let ry = window.screen.availHeight;
             let px = Math.round((x/rx)*255);
             let py = Math.round((y/ry)*255);
+            document.querySelector("#cores").style.backgroundColor =`rgb(150,${px},${py})`
         }
     </script>
 </body>
