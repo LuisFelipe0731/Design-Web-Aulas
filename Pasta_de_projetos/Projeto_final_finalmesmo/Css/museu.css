@@ -1,8 +1,14 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
-
+a {
+    text-decoration: none;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.25em;
+}
 header {
     background-color: #55566A;
     display: flex;
@@ -17,13 +23,27 @@ footer {
 
 div.container {
     display: flex;
+    margin: 5em;
 }
 
 header > nav {
     background-color: #E4CC60;
+    padding: 1.25em;
+    border-radius: 0.25em;
+    width: 25em;
+    text-align: center;
     
 }
 
 header > p {
     background-color: #E6564E;
+    height: 0.025em;
+    padding: 2em;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 0.5em;
+    font-size: 1.2em;
 }
