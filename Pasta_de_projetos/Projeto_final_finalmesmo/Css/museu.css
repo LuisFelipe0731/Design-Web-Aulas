@@ -49,7 +49,12 @@ div > p {
     text-align: center;
     background-color: #E4CC60;
     margin: 0;
+    padding: 0.5em;
     border: 1px  solid #000;
+}
+
+div.container > div {
+    margin: 0 auto;
 }
 
 li {
