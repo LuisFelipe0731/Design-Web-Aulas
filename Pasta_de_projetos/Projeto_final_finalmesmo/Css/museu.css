@@ -14,9 +14,13 @@ footer {
     display: flex;
     padding: 1.2em;
 }
-
+main {
+    margin: 5em auto;
+}
 div.container {
     display: flex;
-    margin: 0 auto;
-    padding: 2em;
+}
+
+header > nav {
+    background-color: #E4CC60;
 }
