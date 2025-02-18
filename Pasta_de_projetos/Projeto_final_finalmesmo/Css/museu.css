@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #55566A;
+    display: flex;
+    padding: 1.075em;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+    padding: 1.2em;
+}
+
+div.container {
+    display: flex;
+    margin: 0 auto;
+    padding: 2em;
+}
