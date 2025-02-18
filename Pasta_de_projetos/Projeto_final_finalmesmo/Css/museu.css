@@ -23,7 +23,7 @@ footer {
 
 div.container {
     display: flex;
-    margin: 5em;
+    margin: 2em;
 }
 
 header > nav {
@@ -40,6 +40,12 @@ header > p {
     height: 0.025em;
     padding: 2em;
     text-align: center;
+}
+
+div > p {
+    text-align: center;
+    background-color: #E4CC60;
+    margin: 0;
 }
 
 li {
