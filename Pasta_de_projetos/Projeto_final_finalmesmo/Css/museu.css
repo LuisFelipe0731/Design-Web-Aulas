@@ -14,9 +14,7 @@ footer {
     display: flex;
     padding: 1.2em;
 }
-main {
-    margin: 5em auto;
-}
+
 div.container {
     display: flex;
 }
@@ -24,4 +22,8 @@ div.container {
 header > nav {
     background-color: #E4CC60;
     
+}
+
+header > p {
+    background-color: #E6564E;
 }
