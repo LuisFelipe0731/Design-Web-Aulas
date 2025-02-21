@@ -39,8 +39,7 @@ h3 {
     font-size: 1.5em;
 }
 div.linha {
-    width: 89em;
-    margin: 0 auto;
+    width: 89.4em;
 }
 hr {
     border: 2px solid #fff;
@@ -61,16 +60,12 @@ header > p {
     text-align: center;
     border-radius: 0.25em;
 }
-img {
-    margin: 0;
-    padding: 0;
-}
+
 a > p {
     text-align: center;
     background-color: #E4CC60;
     margin: 0;
     padding: 0.6em;
-    border: 2px  solid #000;
 }
 
 div.container > div {
