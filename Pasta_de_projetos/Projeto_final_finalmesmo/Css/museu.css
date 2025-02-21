@@ -22,6 +22,7 @@ footer {
     color: #FFF;
     display: flex;
     padding: 1.075em;
+    margin: 2em auto;
 }
 
 div.container {
