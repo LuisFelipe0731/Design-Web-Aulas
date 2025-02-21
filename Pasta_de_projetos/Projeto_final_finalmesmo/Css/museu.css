@@ -41,7 +41,7 @@ h3 {
 div.linha {
     width: 89.4em;
 }
-hr {
+div.linha > hr {
     border: 2px solid #fff;
     border-radius: 5em;
 }
