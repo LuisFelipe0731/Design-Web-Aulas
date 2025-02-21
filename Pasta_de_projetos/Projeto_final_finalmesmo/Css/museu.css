@@ -8,6 +8,7 @@ a {
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.25em;
+    background-color: #E6564E;
 }
 header {
     background-color: #55566A;
@@ -25,14 +26,26 @@ footer {
     margin: 0 auto;
 }
 section {
-    margin: 2em auto;
+    margin: 0 auto;
+    padding: 2.85em;
 }
 div.container {
     display: flex;
-    padding: 1em;
+    padding: 1.5em;
 
 }
-
+h3 {
+    color: #FFF;
+    font-size: 1.5em;
+}
+div.linha {
+    width: 89em;
+    margin: 0 auto;
+}
+hr {
+    border: 2px solid #fff;
+    border-radius: 5em;
+}
 header > nav {
     background-color: #E4CC60;
     padding: 0;
