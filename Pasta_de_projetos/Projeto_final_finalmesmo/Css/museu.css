@@ -7,7 +7,7 @@ a {
 }
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.25em;
+    font-size: 1.3em;
     background-color: #E6564E;
 }
 header {
@@ -27,11 +27,11 @@ footer {
 }
 section {
     margin: 0 auto;
-    padding: 3em;
+    padding: 2em;
 }
 div.container {
     display: flex;
-    padding: 1.5em;
+    padding: 1em;
 
 }
 h3 {
@@ -47,7 +47,6 @@ div.linha > hr {
 }
 header > nav {
     background-color: #E4CC60;
-    padding: 0;
     border-radius: 0.25em;
     width: 35em;
     text-align: center;
@@ -65,12 +64,11 @@ a > p {
     text-align: center;
     background-color: #E4CC60;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.6em;
 }
-
 
 li {
     display: inline-block;
     padding: 1em;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
