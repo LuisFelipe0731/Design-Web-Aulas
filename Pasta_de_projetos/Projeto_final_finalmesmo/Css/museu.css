@@ -27,7 +27,7 @@ footer {
 }
 section {
     margin: 0 auto;
-    padding: 2.85em;
+    padding: 3em;
 }
 div.container {
     display: flex;
@@ -65,12 +65,9 @@ a > p {
     text-align: center;
     background-color: #E4CC60;
     margin: 0;
-    padding: 0.6em;
+    padding: 0.5em;
 }
 
-div.container > div {
-    margin: 0.5em auto;
-}
 
 li {
     display: inline-block;
