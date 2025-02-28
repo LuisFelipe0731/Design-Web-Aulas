@@ -27,7 +27,7 @@ footer {
 }
 section {
     margin: 0 auto;
-    padding: 2em;
+    padding: 1em;
 }
 div.container {
     display: flex;
@@ -40,11 +40,11 @@ h3 {
 }
 div.linha {
     width: 58em;
-    color: #fff;
+    padding: 0.75em;
 }
-div.linha > hr {
+hr.a {
     border-radius: 5em;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
 }
 header > nav {
     background-color: #E4CC60;
@@ -72,4 +72,20 @@ li {
     display: inline-block;
     padding: 1em;
     font-size: 1.2em;
+}
+
+figure {
+    padding: 1em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #FFF;
+}
+
+section > p {
+    text-align: center;
+    color: #fff;
+    padding: 1em;
 }
