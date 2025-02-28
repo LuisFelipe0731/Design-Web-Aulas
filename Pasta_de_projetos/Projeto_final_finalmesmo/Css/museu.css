@@ -13,7 +13,7 @@ body {
 header {
     background-color: #55566A;
     display: flex;
-    padding: 0.85em;
+    padding: 0.7em;
 }
 main {
     margin: 0 auto;
@@ -31,7 +31,7 @@ section {
 }
 div.container {
     display: flex;
-    padding: 1em;
+    padding: 0;
 
 }
 h3 {
@@ -39,23 +39,24 @@ h3 {
     font-size: 1.5em;
 }
 div.linha {
-    width: 89.4em;
+    width: 58em;
+    color: #fff;
 }
 div.linha > hr {
-    border: 2px solid #fff;
     border-radius: 5em;
+    border: 2px solid #fff;
 }
 header > nav {
     background-color: #E4CC60;
     border-radius: 0.25em;
-    width: 35em;
+    width: 40em;
     text-align: center;
     
 }
 
 header > p {
     background-color: #E6564E;
-    padding: 0.5em;
+    padding: 1em;
     text-align: center;
     border-radius: 0.25em;
 }
