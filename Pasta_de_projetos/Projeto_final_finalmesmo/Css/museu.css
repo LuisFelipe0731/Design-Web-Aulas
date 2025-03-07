@@ -13,7 +13,9 @@ body {
 header {
     background-color: #55566A;
     display: flex;
-    padding: 0.7em;
+    align-items: center;
+    padding: 1em;
+    
 }
 main {
     margin: 0 auto;
@@ -27,11 +29,10 @@ footer {
 }
 section {
     margin: 0 auto;
-    padding: 1em;
+    padding: 2em;
 }
 div.container {
     display: flex;
-    padding: 0;
 
 }
 h3 {
@@ -39,24 +40,25 @@ h3 {
     font-size: 1.5em;
 }
 div.linha {
-    width: 58em;
+    width: 80em;
     padding: 0.75em;
 }
-hr.a {
+hr {
     border-radius: 5em;
-    border: 1px solid #fff;
+    border: 1px solid rgba(255, 255, 255, 255);
 }
 header > nav {
     background-color: #E4CC60;
     border-radius: 0.25em;
-    width: 40em;
+    width: 38em;
     text-align: center;
     
 }
 
-header > p {
+p > a{
     background-color: #E6564E;
     padding: 1em;
+    height: 1em;
     text-align: center;
     border-radius: 0.25em;
 }
