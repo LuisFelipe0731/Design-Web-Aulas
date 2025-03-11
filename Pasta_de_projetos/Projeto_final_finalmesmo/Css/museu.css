@@ -152,23 +152,6 @@ form > textarea {
 
 }
 
-form > a {
-    margin: 2em;
-    text-align: center;
-    padding: 0.25em;
-    color: #4E4FE7;
-}
-
-a.google {
-    color: #fff;
-    background-color: #55566A;
-    margin: 2em;
-    padding: 0.6em;
-    border-radius: 0.25em;
-    align-items: center;
-    
-}
-
 section.form > h3 {
     font-size: 1.8em;
     color: #000;
