@@ -5,6 +5,12 @@
 a {
     text-decoration: none;
 }
+
+body.contato {
+    background-image: url("imagens/Fundo2.png");
+    background-color: #fff;
+}
+
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.3em;
@@ -107,9 +113,4 @@ section > p {
     padding: 1em;
     margin: auto;
     font-size: 1.2em;
-}
-
-div#carouselExampleCaptions {
-    padding: 0;
-    margin: 0;
 }
