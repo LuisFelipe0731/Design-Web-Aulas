@@ -44,7 +44,10 @@ header > nav {
     text-align: center;
     padding: 1em;
 }
-
+img {
+    margin :0;
+    padding: 0;
+}
 main {
     margin: 0 auto;
 }
@@ -54,10 +57,33 @@ footer {
     display: flex;
     padding: 1em;
     margin: 0 auto;
+    align-items: center;
+    gap: 0.5em;
 }
 section {
     margin: 0 auto;
     padding: 2em;
+}
+
+section.museu {
+    width: 15em;
+    padding: 0.75em;
+}
+
+section.museu > p {
+    padding: 0;
+    margin: 0 auto;
+}
+
+nav.redes > ul {
+    width: 22em;
+    padding: 0;
+    margin: 0;
+}
+
+nav.redes > ul > li {
+    padding: 0;
+    width: 2em;
 }
 
 div.boots > p {
@@ -91,7 +117,7 @@ a > p {
     text-align: center;
     background-color: #E4CC60;
     margin: 0;
-    padding: 0.6em;
+    padding: 0.5em;
 }
 
 figure {
@@ -156,4 +182,16 @@ form > textarea {
 section.form > h3 {
     font-size: 1.8em;
     color: #000;
+}
+
+form.busca {
+    margin: 0 auto;
+    text-align: center;
+}
+form.busca > input {
+    background-color: #fff;
+    width: 30em;
+}
+form.busca > input[type="image"] {
+    width: 1em;
 }
