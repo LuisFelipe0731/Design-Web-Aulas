@@ -149,10 +149,10 @@ section.form {
     padding: 1em;
 }
 
-section.form > form {
+section.form > form.contato {
     padding: 1em;
 }
-form > input {
+form.contato > input {
     background-color: #ddd;
     border: 0px;
     padding: 0.5em;
@@ -160,7 +160,7 @@ form > input {
     border-radius: 0.25em;
 }
 
-input[type="submit"] {
+form.contato > input[type="submit"] {
     padding: 0.5em;
     width: 7em;
     margin: 2em;
@@ -170,7 +170,7 @@ input[type="submit"] {
     font-size: 1em;
 }
 
-form > textarea {
+form.contato > textarea {
     background-color: #ddd;
     border: 0px;
     width: 22em;
